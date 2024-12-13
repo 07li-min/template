@@ -28,111 +28,21 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 43rem;
-    // height: 100vh;
     margin: 0 auto;
     overflow-x: hidden;
-
-    > .bg {
-        content: "";
-        position: absolute;
-        top: 0;
-        display: block;
-        width: 100%;
-        height: 40vh;
-        background-color: #0b5fb8;
-        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 41%);
-        z-index: -1;
-    }
 }
 
-.content-container {
-    // position: relative;
-    // display: flex;
-    //     flex-direction: column;
-    // height: 100%;
-    // margin: 2rem;
-    // padding: .35rem;
-    // border-radius: 1rem;
-    // overflow: hidden;
-    // background: url("/images/box-shadow.png") no-repeat;
-    // background-size: contain;
 
-}
 
 .content {
     padding: 2rem;
-
 }
 
-// #header {
-//     padding: 2.5rem 2rem 2rem;
-
-//     .arrow {
-//         transform: rotate(45deg);
-//         display: block;
-//         width: 1.2rem;
-//         height: 1.2rem;
-//         margin-bottom: 1.5rem;
-//         border-bottom: .2rem solid #fff;
-//         border-left: .2rem solid #fff;
-//     }
-
-//     .title {
-//         color: #fff;
-//         letter-spacing: -.01rem;
-//         font-size: 1.8rem;
-//         font-weight: 500;
-//         font-family: 'Montserrat';
-//     }
-// }
-
 .content-container {
-    
     background-color: #fff;
 }
 
 
-// .main {
-//     height: 30%;
-//     background-color: #0b5fb8;
-
-    
-//     .img img {
-//         filter: brightness(0.7);
-//         margin: 0 auto;
-//     }
-
-//     .box {
-//         @include flex(between,center);
-//         gap: 1rem;
-//         margin-top: 4rem;
-
-//         div {
-//             width: 10rem;
-//             border: .05rem solid #fff;
-//             border-radius: 1px;
-//         }
-
-
-//         p {
-//             color: #fff;
-//             font-size: 1.8rem;
-//             font-weight: bold;
-//             font-family: 'Montserrat';
-//         }
-//     }
-// }
-
-// .info {
-//     flex: 1;
-//     margin-bottom: 2rem;
-// }
-
-
-
-
-
-// 플랜B
 .main {
     background-color: #0b5fb8;
 

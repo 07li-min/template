@@ -104,7 +104,8 @@ body {
 
     ul {
         li {
-            // @include flex(between,center);
+            @include flex(between,center);
+            // display: block;
             gap: 1rem;
             margin-top: 1rem;
 
